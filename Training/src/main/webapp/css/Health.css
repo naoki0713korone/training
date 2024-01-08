@@ -1,0 +1,126 @@
+body {
+	background-color: rgb(255, 255, 255);
+}
+
+form {
+	width: 400px;
+	padding: 40px 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgb(128, 255, 128);
+	/*ここは緑*/
+	text-align: center;
+}
+
+form h1,
+form p {
+	color: rgb(0, 0, 0);
+	/*文字は黒*/
+	font-weight: 500;
+}
+
+form p {
+	font-size: 15px;
+}
+
+
+form input[type="id"],
+form input[type="text"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	border: 2px solid rgb(0, 255, 255);
+	padding: 15px 10px;
+	width: 200px;
+	outline: none;
+	border-radius: 24px;
+	transition: 0.25s;
+	text-align: center;
+}
+
+form input[type="id"]:focus,
+form input[type="text"]:focus {
+	width: 280px;
+	background-color: rgb(255, 255, 255);
+	/*ここは白*/
+}
+
+form input[type="submit"] {
+	border: 0;
+	background: none;
+	display: white;
+	margin: 20px auto;
+	border: 2px solid rgb(255, 255, 255);
+	padding: 15px 10px;
+	width: 200px;
+	outline: none;
+	color: rgb(255, 255, 255);
+	border-radius: 25px;
+	transition: 0.25s;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+form input[type="id"],
+form input[type="password"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	border: 2px solid rgb(255, 255, 255);
+	padding: 15px 10px;
+	width: 200px;
+	outline: none;
+	border-radius: 24px;
+	transition: 0.25s;
+	text-align: center;
+}
+
+form input[type="id"]:focus,
+form input[type="password"]:focus {
+	width: 280px;
+	background-color: rgb(255, 255, 255);
+}
+
+form input[type="submit"] {
+	border: 0;
+	background: none;
+	display: white;
+	margin: 20px auto;
+	border: 2px solid rgb(255, 255, 255);
+	padding: 15px 10px;
+	width: 200px;
+	outline: none;
+	color: rgb(255, 255, 255);
+	border-radius: 25px;
+	transition: 0.25s;
+	text-align: center;
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+	/*	color:rgb(255, 255, 0)*/
+	background-color: rgb(125, 190, 196);
+	border: 2px solid rgb(0, 0, 0);
+}
+
+tbody {
+	border: 0;
+	background: none;
+	display: white;
+	margin: 20px auto;
+	border: 2px solid rgb(255, 255, 255);
+	padding: 15px 10px;
+	width: 200px;
+	outline: none;
+	color: rgb(255, 255, 255);
+	border-radius: 25px;
+	transition: 0.25s;
+	text-align: center;
+	cursor: pointer;
+}
+

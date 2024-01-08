@@ -1,0 +1,52 @@
+body {
+    
+        background-image: url(../picture/bgImage.jpg); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: transparent;
+}
+
+/* 以下はbodyの内容をスタイルするためのCSSルール */
+form {
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    text-align: center;
+    color: #666;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #0056b3;
+}

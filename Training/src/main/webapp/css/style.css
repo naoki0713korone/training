@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+.button-025 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    /*margin-left: 200px;  100px右に移動 */
+    padding: .9em 2em;
+    border: none;
+    border-radius: 25px;
+    background-image: linear-gradient(120deg, #f094fb, #f5576c);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.balloon3-left {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0 1.5em 105px;
+  margin-top: -15px; /* 上に50px移動 */
+  padding: 0 5px;
+  width: 160px;
+  height: 100px;
+  line-height: 90px;
+  text-align: center;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: bold;
+  background: #ffcc75;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.balloon3-left:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #ffcc75;
+  z-index: 0;
+}
+
+/* PreviousとNextボタンのアイコンの色を黒に変更 */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
+}
+
+/* PreviousとNextボタンの背景色を透明に変更 */
+.carousel-control-prev, .carousel-control-next {
+    background-color: transparent;
+}
+
+/* PreviousとNextボタンのホバー時の色を変更（任意） */
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.2); /* グレーのホバー時の色 */
+}
+
+
+
+
+
+
+
+
+
+
+
+/*以下調整*/
+
+
+.big-bg {
+	background-size: cover;
+	background-position: center top;
+}
+
+#home {
+	/*background-image: url(../picture/zen.jpg);*/
+	background-color: rgb(255, 255, 255);
+	background-blend-mode: hard-light;
+	min-height: 100vh;
+}
+
+#home .page-title {
+	text-transform: none;
+}
+
+footer {
+	background: #432;
+	text-align: center;
+	padding: 26px 0;
+}
+
+footer p {
+	color: #fff;
+	font-size: 0.875rem;
+}
